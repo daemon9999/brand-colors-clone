@@ -16,7 +16,7 @@ const ColorDetail = ({ brandUrl }) => {
   const linkUrl =
     (process.env.NODE_ENV === "development"
       ? "localhost:3000"
-      : process.env.REACT_APP_PROD_URL) +
+      : "https://brand-colors-clone.vercel.app") +
     "/b/" +
     brandUrl;
 
